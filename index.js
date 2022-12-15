@@ -24,7 +24,7 @@ const ConnectionDB = async () => {
 await ConnectionDB();
 
 app.get('/', (req, res) => {
-    res.send('Hello World from ToDo API');
+    res.send('Hello World from books');
 })
 
 app.use(cors());
